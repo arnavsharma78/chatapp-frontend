@@ -25,7 +25,7 @@ import {
   START_TYPING,
   STOP_TYPING,
   REFETCH_CHATS,
-} from "../../../../server/constants/events";
+} from "../../constants/events";
 import { incrementNotification } from "../../redux/reducers/chat";
 //Home.jsx is the wrapped component
 const AppLayout = () => (WrappedComponent) => {
